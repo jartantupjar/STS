@@ -1,0 +1,29 @@
+# Library dependencies for the python code.  You need these depencencies
+# `pip install -r requirements.txt` before you can run this.
+
+#easy dependencies
+opencv-python==3.4.5.20
+pandas==0.23.4
+object-detection==0.1
+numpy==1.15.4
+Pillow==5.4.0
+Pyinstaller==3.4
+mss==3.3.2
+pynput==1.4
+
+#Difficult dependencies
+
+# https://developer.nvidia.com/cuda-downloads
+# https://developer.nvidia.com/cudnn
+# https://github.com/tensorflow/models
+tensorflow-gpu==1.12.0
+#download object detection API tensorflow/models
+#Find the ff:
+#go to object detection folder and run 'pip install -e .'
+#go to slim detection folder and run 'pip install -e .'
+#  slim
+#  object-detection
+#set PythonPath=%PythonPath%;path_to_/models;path_to_/models/research;path_to/models/research/slim/;path_to/models/research/object_detection
+
+
+

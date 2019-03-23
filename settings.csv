@@ -1,0 +1,28 @@
+name,display,units,value,type,tab
+useGpu,Run on GPU,,1,boolean,0
+classify,Run Detection,,1,boolean,0
+skip_detection,Skip on Detection,,1,boolean,0
+log_detection,Save Image on Detection,,0,boolean,0
+log_stats,Save Stats,,0,boolean,0
+width,Window Width,px,1920,int,0
+height,Window Height,px,1080,int,0
+hide_window,Hide Window,,1,boolean,0
+top_most,Keep Window on Top,,1,boolean,0
+transparent,Transparency,,1,boolean,0
+display_box,Display Boxes,,0,boolean,0
+display_fps,Display FPS,,1,boolean,0
+resize_width,Resize Width,px,800,int,2
+resize_height,Resize Height,px,600,int,2
+global_threshold,Category Threshold,%,75,int,2
+simulated_button,Simulated Button,,right,string,2
+det_skip_delay,Post-skip Delay,ms,500,int,2
+max_boxes,Max Boxes To Draw,#,10,int,2
+frame_seconds,frame seconds,s,2,int,2
+use_num_frames,Use number of frames,,1,boolean,2
+perc_frames,seconds to act,%,15,int,2
+num_frames,frames to act,#,5,int,2
+model_location,Model Graph,,model.pb,string,3
+pbtxt_file,Pbtxt File Path,,censor_label_map.pbtxt,string,3
+image_log_path,Image Log Path,,log\,string,3
+ann_log_path,Annotation Log Path,,log\annotation.csv,string,3
+stats_log_path,Statistic Log Path,,log\stats.csv,string,3

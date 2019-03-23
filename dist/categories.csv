@@ -1,0 +1,2 @@
+id,name,value,type,label_map
+1,kiss,1,boolean,censor_label_map.pbtxt

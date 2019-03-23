@@ -1,0 +1,9 @@
+#you need to update the ff on the tkinterfile.spec:
+        #add to datas: venv_app\\Lib\\site-packages\\tensorflow\\python\\_pywrap_tensorflow_internal.pyd' to 'tensorflow\\python'
+
+#cd to folder
+#*optional* use your python environment:
+#C:\Users\ndrs\Downloads\models-master\research\object_detection\censor\App\venv_app\Scripts\activate.bat
+
+#apply command
+#pyinstaller tkinterfile.spec --upx-dir="upx_64" -F
